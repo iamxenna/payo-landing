@@ -1,0 +1,34 @@
+.typer {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 130%;
+    height: 104px;
+    color: #F0ADFF;
+}
+
+.userMessageTitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    height: 25px;
+
+    color: #151416;
+}
+
+.userMessageText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #151416;
+    min-height: 38px;
+}
+
+@media screen and (max-width: 1200px) {
+    .typer {
+        font-size: 50px;
+        line-height: 100%;
+    }
+}
